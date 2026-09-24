@@ -3,6 +3,28 @@
 A modern, production-grade Expense Tracker and Personal Finance Management web application built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js), styled with **Tailwind CSS**, and powered by **Recharts** interactive data visualizations.
 
 ---
+##  Demo
+
+### Login
+![Login](./login.png)
+
+### Dashboard
+![Dashboard](./dashboard-light.png)
+
+### Transactions
+![Transactions](./transactionns.png)
+
+### Budget Management
+![Budget Management](./budget.png)
+
+### Analytics
+![Analytics](./analytics.png)
+
+### Profile
+![Profile](./profile-light.png)
+
+
+
 
 ##  Key Features
 
