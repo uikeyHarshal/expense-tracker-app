@@ -1,0 +1,27 @@
+{
+  "name": "expense-tracker-mern",
+  "version": "1.0.0",
+  "description": "Full-Stack MERN Expense Tracker Application",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && npm install --prefix server && npm install --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "expense-tracker",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
