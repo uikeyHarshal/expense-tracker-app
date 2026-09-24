@@ -1,54 +1,54 @@
-# 💰 SmartSpend - Full-Stack MERN Expense Tracker & Budget Manager
+#  SmartSpend - Full-Stack MERN Expense Tracker & Budget Manager
 
 A modern, production-grade Expense Tracker and Personal Finance Management web application built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js), styled with **Tailwind CSS**, and powered by **Recharts** interactive data visualizations.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-- 🔐 **Authentication & Security**
+- **Authentication & Security**
   - Secure user registration and login with JWT (JSON Web Tokens) and bcrypt password hashing.
-  - **⚡ 1-Click Instant Demo Login**: Instant evaluation without typing credentials.
+  - ** 1-Click Instant Demo Login**: Instant evaluation without typing credentials.
   - Multi-currency support (`$ USD`, `₹ INR`, `€ EUR`, `£ GBP`, `¥ JPY`, `C$ CAD`, `A$ AUD`, `CHF`).
 
-- 📊 **Interactive Financial Analytics & Dashboard**
+-  **Interactive Financial Analytics & Dashboard**
   - **Net Balance & Cashflow Metrics**: Real-time calculation of total balance, monthly income, monthly expenses, and savings rate.
   - **Cashflow Trends**: Smooth Area Charts visualizing income vs expenses over time.
   - **Expense Category Breakdown**: Interactive Doughnut chart and percentage rankings for spending categories.
   - **Monthly Comparison**: Side-by-side Bar Charts comparing revenues vs outflows.
 
-- 💸 **Comprehensive Transaction Management**
+-  **Comprehensive Transaction Management**
   - Add, edit, and delete Income and Expense transactions.
   - Categorization (Food & Dining, Shopping, Housing, Utilities, Transportation, Entertainment, Health, Education, Salary, Freelance, Investments, etc.).
   - Payment method tagging (`Cash`, `Credit Card`, `Debit Card`, `Bank Transfer`, `UPI`, `PayPal`).
   - Search, filter by category/type/payment method, and sort transactions.
   - Pagination for high-volume transaction records.
-  - **📥 1-Click CSV Export**: Download transaction history for spreadsheet analysis.
+  - ** 1-Click CSV Export**: Download transaction history for spreadsheet analysis.
 
-- 🎯 **Category Budgets & Savings Goals**
+-  **Category Budgets & Savings Goals**
   - Set monthly spending limits per category.
   - Real-time progress bars with safety color thresholds (Green `< 75%`, Amber `75-90%`, Red `> 90%` or Exceeded).
   - Target-based savings goals with deadline countdowns and funds contribution tracking.
 
-- 🎨 **Modern Design & UX**
+-  **Modern Design & UX**
   - Dark / Light Mode with automatic theme detection and persistence.
   - Responsive mobile-first interface with smooth animations and toast notifications.
   - Resilient backend database architecture with automatic MongoDB in-memory fallback.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technologies |
 |---|---|
 | **Frontend** | React 18, Vite, Tailwind CSS, Lucide Icons, Recharts, Axios |
 | **Backend** | Node.js, Express.js, JSON Web Tokens (JWT), BcryptJS, Morgan |
 | **Database** | MongoDB & Mongoose (with MongoDB Memory Server fallback for dev) |
-| **Tooling** | Concurrently, PostCSS, Autoprefixer |
+
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 expennse-trackerapp/
@@ -116,7 +116,7 @@ expennse-trackerapp/
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -180,14 +180,12 @@ npm run dev
 
 ---
 
-## 👨‍💻 Demo Account Credentials
+##  Demo Account Credentials
 
 For quick evaluation without manual signup:
-- Click **"⚡ Explore with 1-Click Demo Account"** on the login page, OR
+- Click **" Explore with 1-Click Demo Account"** on the login page, OR
 - **Email**: `demo@expensetracker.com`
 - **Password**: `demopassword123`
 
----
 
-## 📄 License
-MIT License. Created for portfolio and full-stack demonstration.
+
